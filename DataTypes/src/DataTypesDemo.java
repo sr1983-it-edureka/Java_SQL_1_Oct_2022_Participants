@@ -2,7 +2,16 @@
 public class DataTypesDemo {
 
 	public static void main(String[] args) {
-				
+		
+		// Uber Apartments,
+		// Indra Nagar,
+		// Bangalore,
+		// 560075
+		
+		// Appraisal of an employee for the last 3 years
+		// 2021 - A, 2020 - B, 2019 - C
+		// A, B, C
+		
 		int numberOfTransactions = 155;
 		
 		int sessionDurationInHours = 4;

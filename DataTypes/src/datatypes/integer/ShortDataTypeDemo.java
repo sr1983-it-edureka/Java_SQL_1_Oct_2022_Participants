@@ -1,3 +1,4 @@
+package datatypes.integer;
 
 public class ShortDataTypeDemo {
 

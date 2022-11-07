@@ -1,3 +1,4 @@
+package datatypes.decimal;
 
 public class DoubleDataTypeDemo {
 

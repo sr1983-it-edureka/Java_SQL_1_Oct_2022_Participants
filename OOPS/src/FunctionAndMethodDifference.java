@@ -20,10 +20,10 @@ public class FunctionAndMethodDifference {
 		
 		// Print a file
 				
-		Printer printer01 = null;
+//		Printer printer01 = null;
 				
-		File helloWorldJava = null;
-		printer01.print(helloWorldJava);
+//		File helloWorldJava = null;
+//		printer01.print(helloWorldJava);
 	}
 }
 

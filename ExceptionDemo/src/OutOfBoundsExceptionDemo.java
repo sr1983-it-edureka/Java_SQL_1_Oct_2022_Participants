@@ -3,8 +3,8 @@ public class OutOfBoundsExceptionDemo {
 
 	public static void main(String[] args) {
 		
-//		stringDemo();
-		arraysDemo();
+		stringDemo();
+//		arraysDemo();
 	}
 	
 	static void stringDemo(){

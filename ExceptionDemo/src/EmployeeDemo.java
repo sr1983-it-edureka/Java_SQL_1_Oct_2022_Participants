@@ -11,7 +11,7 @@ public class EmployeeDemo {
 
 
 			Employee rajesh = new Employee("Rajesh", "Team-Lead", 200);
-			rajesh.applyManagerPosition();
+			rajesh.applyManagerPositionV1();
 			
 			
 
@@ -21,7 +21,7 @@ public class EmployeeDemo {
 		
 		try {
 			Employee manu = new Employee("Manu", "Team-Lead", 200);			
-			manu.applyManagerPosition();
+			manu.applyManagerPositionV1();
 		}
 		catch (Exception e) {
 			e.printStackTrace();
@@ -30,7 +30,7 @@ public class EmployeeDemo {
 		try {
 		
 			Employee balu = new Employee("Balu", "Junior Developer", 100);
-			balu.applyManagerPosition();
+			balu.applyManagerPositionV1();
 		}
 		catch (Exception e) {
 			e.printStackTrace();
@@ -39,7 +39,7 @@ public class EmployeeDemo {
 		try {
 
 			Employee anusha = new Employee("Anusha", "Team-Lead", 200);
-			anusha.applyManagerPosition();
+			anusha.applyManagerPositionV1();
 		}
 		catch (Exception e) {
 			e.printStackTrace();

@@ -9,18 +9,19 @@ public class EmployeeDemo2 {
 		
 		try {
 
-			Employee balu = new Employee("Balu", "Junior Developer", 100);
-			balu.applyManagerPosition();			
+			Employee balu = new Employee("Balu", "Junior Developer", 2);
+			balu.applyManagerPositionV1();			
 
 		}catch (Exception e) {
 			e.printStackTrace();
 		}
 		
 		try {
-			Employee rajesh = new Employee("Rajesh", "Team-Lead", 200);
-			rajesh.applyManagerPosition();			
+			Employee rajesh = new Employee("Rajesh", "Team-Lead", 1);
+			rajesh.applyManagerPositionV1();			
 		}catch (Exception e) {
 			e.printStackTrace();
+			
 		}
 	}
 }

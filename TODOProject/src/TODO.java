@@ -14,6 +14,8 @@ public class TODO {
 	// Custom Exception
 	// Static methods & varaibles
 	// Protected scope
+	// Ternary Operator usage
+	// Serializatio -Object Read (when to stop)
 
 	// DONE
 	// Scanner.next / hasNext

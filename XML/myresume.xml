@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resume>
+
+	<project id="10">
+		<name>Web Project</name>
+		<teamSize>10</teamSize>
+		<budget>1234.45</budget>
+	</project>
+	
+
+	<project id="20">
+		<name>Mobile Project</name>
+		<teamSize>18</teamSize>
+		<budget>8234.45</budget>
+	</project>
+
+	<project id="30">
+		<name>Integration Project</name>
+		<teamSize>5</teamSize>
+		<budget>850.45</budget>
+	</project>
+
+</resume>

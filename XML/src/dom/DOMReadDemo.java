@@ -1,3 +1,4 @@
+package dom;
 import java.io.IOException;
 
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -60,7 +61,7 @@ public class DOMReadDemo {
 	static Document createDocument() {
 		
 		DocumentBuilderFactory factory = 
-		DocumentBuilderFactory.newInstance();
+				DocumentBuilderFactory.newInstance();
 		
 		try {
 			return factory.newDocumentBuilder().parse("myresume.xml");

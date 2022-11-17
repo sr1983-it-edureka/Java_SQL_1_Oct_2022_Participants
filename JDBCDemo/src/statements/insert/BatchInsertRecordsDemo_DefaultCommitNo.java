@@ -54,6 +54,16 @@ public class BatchInsertRecordsDemo_DefaultCommitNo {
 				statement.addBatch(query);
 			}	
 			
+			/**
+			 * 
+			 * Student arun = ...;
+			 * arun.insert()
+			 * 
+			 * arun.update('Arun Kumar');
+			 * 
+			 * arun.delete();
+			 */
+			
 			// Execute
 			int[] results = statement.executeBatch();
 			

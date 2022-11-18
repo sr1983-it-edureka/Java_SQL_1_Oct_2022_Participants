@@ -1,11 +1,11 @@
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import javax.persistence.*;
 
-@Entity
+@Entity(name = "jEmployee")
 @Table(name = "employee")
 public class Employee {
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	@Column(name = "id")
 	private Long id;
 	
@@ -17,6 +17,15 @@ public class Employee {
 
 	@Column(name = "age")
 	private int age;
+	
+	public Employee() {}
+	
+	public Employee(String firstName, String lastName, int age) {
+		
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
+	}
 	
 	public String getFirstName() {
 		return firstName;
@@ -50,5 +59,11 @@ public class Employee {
 		this.age = age;
 	}
 	
+	@Override
+	public String toString() {
+		
+		return String.format("Id %d, First Name %s, Last Name %s, Age %d", id, firstName,
+						lastName, age);
+	}
 	
 }

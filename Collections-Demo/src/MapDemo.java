@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 
 public class MapDemo {
 
@@ -27,7 +28,8 @@ public class MapDemo {
 		
 //		basicOperations(tasks);
 		
-		printKeysAndValuesV1(tasks);
+//		printKeysAndValuesV1(tasks);
+		printKeysAndValuesV2(tasks);
 	}
 	
 	static void basicOperations(HashMap<Integer, String> tasks) {
@@ -50,9 +52,9 @@ public class MapDemo {
 		
 		while (iterator.hasNext()) {
 			
-			int number = iterator.next();
+			int taskId = iterator.next();
 		
-			System.out.println(number);
+			System.out.println(taskId);
 		}		
 		System.out.println();		
 	}
@@ -63,9 +65,9 @@ public class MapDemo {
 
 		while (strIterator.hasNext()) {
 			
-			String value = strIterator.next();
+			String taskName = strIterator.next();
 		
-			System.out.println(value);
+			System.out.println(taskName);
 		}				
 	}
 	
@@ -75,14 +77,36 @@ public class MapDemo {
 		
 		while (iterator.hasNext()) {
 			
-			int key = iterator.next();
+			int taskId = iterator.next();
 			
-			String value = tasks.get(key);
+			String taskName = tasks.get(taskId);
 		
 			System.out.println(String.format(
-				"Key is %d and value is %s", key, value));
+				"Key is %d and value is %s", taskId, taskName));
 			
 		}		
 		System.out.println();		
 	}
+
+
+	static void printKeysAndValuesV2(HashMap<Integer, String> tasks){
+		
+		System.out.println("Retreing data from map based on Map.Entry");
+		Iterator<Map.Entry<Integer, String>> iterator  = tasks.entrySet().iterator();
+		
+		while (iterator.hasNext()) {
+			
+			Map.Entry<Integer, String> entry = iterator.next();
+			
+			int taskId = entry.getKey();
+			String taskName = entry.getValue();
+					
+			System.out.println(String.format(
+				"Key is %d and value is %s", taskId, taskName));
+			
+		}		
+		System.out.println();		
+	}
+
+
 }

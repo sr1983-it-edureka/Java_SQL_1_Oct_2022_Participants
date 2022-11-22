@@ -1,0 +1,31 @@
+
+Twitter
+	1 M tweets / 30 seconds
+	
+	
+class AbusiveWordsChcker{
+
+	AbusiveWordsChecker(Object tweet){
+	}
+	
+	boolean check(){
+		
+		message = 	tweet.getProperty("message")
+		pictures = tweet.getProperty("pictures")
+		
+		// check for message, pictures
+	}
+}
+
+function check(tweet){
+	
+	// check
+	return true / false;
+}
+
+
+// Servlet
+function processRequest(req, res){
+
+}
+

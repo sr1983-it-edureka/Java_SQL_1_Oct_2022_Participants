@@ -1,0 +1,16 @@
+Person
+	name
+	age
+	
+Student -> Person
+	course -> (Computer Science)
+	id_card_no -> (101)
+	
+Professor -> Person
+	work_timings (10 AM till 4 PM)
+	job_type = (part / time)
+	
+person
+--------------------------------------------------
+id	name	age		course		id_card_no	 work_timings 	job_type
+

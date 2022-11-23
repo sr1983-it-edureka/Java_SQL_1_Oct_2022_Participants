@@ -15,6 +15,8 @@ public class Answer {
 	private Long id;
 	private String answerText;
 	
+	public Answer() {}
+	
 	public Answer(String answerText) {
 		this.answerText = answerText;
 	}
@@ -31,4 +33,10 @@ public class Answer {
 	public void setAnswerText(String answerText) {
 		this.answerText = answerText;
 	}
+	
+	public String toString() {
+		
+		return "[ " + answerText + "]";
+	}
+	
 }

@@ -23,7 +23,7 @@
 
 		<property name="show_sql">true</property>
 
-		<property name="hbm2ddl.auto">create-drop</property>
+		<property name="hbm2ddl.auto">update</property>
 		
 		<mapping class="com.edureka.javasql1.hibernate.Question"/>
 		<mapping class="com.edureka.javasql1.hibernate.Answer"/>

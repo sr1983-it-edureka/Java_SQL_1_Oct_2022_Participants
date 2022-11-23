@@ -1,0 +1,22 @@
+{
+	"name": "Rajesh",	
+	"projects": [
+		{
+			"name" : "Web project",
+			"duration": "10 months",
+			"teamSize": "15"
+		},
+		
+		{
+			"name" : "Mobile project",
+			"duration": "15 months",
+			"teamSize": "12"
+		},
+		
+		{
+			"name" : "Integration project",
+			"duration": "11 months",
+			"teamSize": "10"
+		}
+	]
+}

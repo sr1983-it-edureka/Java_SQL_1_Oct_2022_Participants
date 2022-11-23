@@ -21,7 +21,9 @@ public class Question {
 	
 	@OneToMany(cascade = CascadeType.ALL)
 	private List<Answer> answers;
-
+	
+	public Question() {}
+	
 	public Question(String questionText) {
 		this.questionText = questionText;
 	}
@@ -48,5 +50,10 @@ public class Question {
 
 	public void setAnswers(List<Answer> answers) {
 		this.answers = answers;
+	}
+	
+	public String toString() {
+		
+		return "[ " + questionText + "]";
 	}
 }

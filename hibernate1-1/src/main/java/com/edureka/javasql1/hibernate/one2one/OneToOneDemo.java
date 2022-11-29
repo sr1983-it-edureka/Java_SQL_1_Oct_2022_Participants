@@ -13,10 +13,10 @@ public class OneToOneDemo {
 
 	public static void main(String[] args) {
 		
-//		insertEmployees();	
+		insertEmployees();	
 //		queryEmployees();
 //		updateEmployee();
-		deleteEmployee();
+//		deleteEmployee();
 	}
 
 

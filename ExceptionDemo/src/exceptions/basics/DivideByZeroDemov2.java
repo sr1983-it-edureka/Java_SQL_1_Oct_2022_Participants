@@ -1,5 +1,6 @@
+package exceptions.basics;
 
-public class ExceptionDemo {
+public class DivideByZeroDemov2 {
 
 	public static void main(String[] args) {
 		

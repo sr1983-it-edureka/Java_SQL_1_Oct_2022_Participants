@@ -1,3 +1,4 @@
+package custom.exception;
 
 public class Employee {
 
